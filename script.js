@@ -107,7 +107,7 @@ document.querySelectorAll(".elem").forEach(function(elem)
         gsap.to(elem.querySelector("img"),{
             opacity: 1,
             ease: Power3,
-            top: diff,
+            // top: diff,
             left: details.clientX,
             rotate:  gsap.utils.clamp(-20, 20, diffrot*0.5),
         });
