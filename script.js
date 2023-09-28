@@ -99,7 +99,7 @@ document.querySelectorAll(".elem").forEach(function(elem)
     //on mouse move what would happen
 
     elem.addEventListener("mousemove", function(details){ //for mouse x axis and y axis details
-    var diff = details.clientY - elem.getBoundingClientRect().top;
+    // var diff = details.clientY - elem.getBoundingClientRect().top;
 
     diffrot = details.clientX - rotate;
     rotate = details.clientX;
